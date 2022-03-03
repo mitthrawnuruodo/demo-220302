@@ -1,0 +1,22 @@
+/*
+ Theme Name:   Hexa Child
+ Theme URI:    
+ Description:  Hexa Child Theme for testing purposes
+ Author:       Xiaolasse
+ Author URI:   https://www.geek.no
+ Template:     hexa
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         noroff, test, child-theme
+ Text Domain:  hexa-child
+*/
+
+body {
+    background: #E5C3C3; /* Pantone Lotus */
+    color: blue;
+}
+
+#post-5 > header:nth-child(2) > h1:nth-child(1) > a:nth-child(1) {
+    color: green !important;
+}
